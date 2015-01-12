@@ -865,3 +865,13 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+/* From http://stackoverflow.com/questions/21992498/is-it-possible-to-disable-mouse-scroll-wheel-zoom-on-embedded-google-maps*/
+.maps-overlay {
+    background:transparent;
+    position:relative;
+    width:100%;
+    height:400px;
+    top:400px;
+    margin-top:-400px;
+}
